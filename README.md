@@ -1,4 +1,5 @@
-\# DevOps Journey 🚀
+<img width="1600" height="915" alt="image" src="https://github.com/user-attachments/assets/96bd60e1-5690-4d57-ac5d-27de53a3d00b" />\# DevOps Journey 🚀
+
 
 
 
@@ -8,7 +9,7 @@
 
 \- Created EC2 instance
 
-\- Installed GUI
+\- Installed GUI 
 
 \- Connected remotely
 
