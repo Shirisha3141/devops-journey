@@ -74,6 +74,7 @@ export const resumeData = {
       title: "CartifyAI - AI-Based Personalized Shopping System",
       subtitle: "AI & Conversational E-Commerce Recommendation Platform",
       category: "AI & Web Development",
+      image: "assets/projects/cartify-ai.png",
       description: "Developed an AI-driven recommendation engine using user behavior analysis, delivering 100+ personalized product suggestions. Implemented NLP-based conversational search, improving search efficiency by 30% and enhancing overall user experience.",
       highlights: [
         "Delivered 100+ personalized product suggestions using user behavior analysis",
@@ -93,6 +94,7 @@ export const resumeData = {
       title: "DevSecOps Security Pipeline",
       subtitle: "AWS Cloud-Native CI/CD Pipeline with Automated SAST Security",
       category: "Cloud & DevSecOps",
+      image: "assets/projects/devsecops-pipeline.png",
       description: "Built a cloud-native DevSecOps pipeline using AWS CodePipeline, CodeBuild, Terraform, Docker, and Django with automated Bandit SAST scanning to detect vulnerabilities and secure CI/CD workflows.",
       highlights: [
         "Awarded 3rd Prize in College Project Expo for automated cloud security",
@@ -113,6 +115,7 @@ export const resumeData = {
       title: "Campus Connect",
       subtitle: "Full-Stack MERN Event Management Platform",
       category: "Full Stack (MERN)",
+      image: "assets/projects/campus-connect.png",
       description: "Developed a MERN Stack campus event management application with JWT-based authentication, Role-Based Access Control (RBAC), and responsive React dashboards integrated with a Node.js/Express backend. Built 20+ RESTful APIs for authentication, event management, registrations, approvals, and user profiles using MongoDB.",
       highlights: [
         "Built 20+ RESTful APIs for authentication, events, registrations, and approvals",
@@ -134,6 +137,7 @@ export const resumeData = {
       title: "AVLTree - DSA Implementation",
       subtitle: "Self-Balancing Binary Search Tree Data Structure",
       category: "Data Structures & Algorithms",
+      image: "assets/projects/avl-tree.png",
       description: "Implemented AVL Tree in Java with self-balancing rotations (LL, RR, LR, RL), achieving O(log n) performance for operations and improving efficiency over traditional BST.",
       highlights: [
         "Implemented complete self-balancing rotations: Left-Left (LL), Right-Right (RR), Left-Right (LR), Right-Left (RL)",
@@ -159,7 +163,7 @@ export const resumeData = {
       duration: "December 2025",
       type: "Internship Experience",
       highlights: [
-        "Implemented Role-Based Access Control (RBAC) into the RAG Chatbot architecture",
+        "Implemented Role-Based Access Control (RBAC), improving application security through secure user authorization and permission management",
         "Improved application security through secure user authorization and permission management",
         "Ensured safe data access control based on user roles"
       ],
