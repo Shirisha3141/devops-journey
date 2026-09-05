@@ -115,20 +115,36 @@ export const resumeData = {
       title: "DevSecOps Security Pipeline",
       subtitle: "AWS Cloud-Native CI/CD Pipeline with Automated SAST Security",
       category: "Cloud & DevSecOps",
-      image: "assets/projects/devsecops-pipeline.png",
+      image: "assets/projects/devsecops-pipeline/devsecops-pipeline-1.png",
       gallery: [
         {
-          url: "assets/projects/devsecops-pipeline.png",
-          caption: "Project Expo Presentation & AWS DevSecOps Pipeline Showcase"
+          url: "assets/projects/devsecops-pipeline/devsecops-pipeline-1.png",
+          caption: "3rd Prize Award Presentation & DevSecOps Project Expo Showcase"
+        },
+        {
+          url: "assets/projects/devsecops-pipeline/devsecops-pipeline-2.png",
+          caption: "Successful Run — AWS CodePipeline & Bandit SAST Passed (Zero Vulnerabilities)"
+        },
+        {
+          url: "assets/projects/devsecops-pipeline/devsecops-pipeline-3.png",
+          caption: "Failed Run — Bandit SAST Detected Hardcoded Secret & Blocked Build Deployment"
+        },
+        {
+          url: "assets/projects/devsecops-pipeline/devsecops-pipeline-4.png",
+          caption: "Security Dashboard — NODE_SECURED Automated Integrity Monitoring Status"
+        },
+        {
+          url: "assets/projects/devsecops-pipeline/devsecops-pipeline-5.png",
+          caption: "Security Dashboard — THREAT_DETECTED Critical Vulnerability Alert"
         }
       ],
       problemUseCase: "Traditional cloud CI/CD pipelines often deploy application code without automated security analysis, leaving applications vulnerable to security flaws and manual review delays.",
       roleContribution: "Cloud & DevSecOps Engineer — Configured AWS CodePipeline, CodeBuild, Terraform IaC scripts, Docker containerization, and integrated automated Bandit SAST vulnerability scanning.",
       description: "Built a cloud-native DevSecOps pipeline using AWS CodePipeline, CodeBuild, Terraform, Docker, and Django with automated Bandit SAST scanning to detect vulnerabilities and secure CI/CD workflows.",
       highlights: [
-        "Awarded 3rd Prize in College Project Expo for automated cloud security",
-        "Integrated AWS CodePipeline, CodeBuild, Terraform & Docker for cloud-native deployment",
-        "Configured Bandit SAST automated static analysis scanning to detect code vulnerabilities in CI/CD"
+        "Awarded 3rd Prize in College Project Expo for automated cloud security pipeline design",
+        "Integrated AWS CodePipeline, AWS CodeBuild, Terraform IaC, and Docker containerization",
+        "Configured Bandit SAST automated static analysis scanning to detect code vulnerabilities and block insecure builds"
       ],
       technologies: ["AWS CodePipeline", "AWS CodeBuild", "Terraform", "Docker", "Python", "Django", "Bandit SAST", "GitHub Actions"],
       award: "3rd Prize - College Project Expo",
