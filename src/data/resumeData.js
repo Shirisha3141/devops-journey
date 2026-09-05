@@ -74,14 +74,35 @@ export const resumeData = {
       title: "CartifyAI - AI-Based Personalized Shopping System",
       subtitle: "AI & Conversational E-Commerce Recommendation Platform",
       category: "AI & Web Development",
-      image: "assets/projects/cartify-ai.png",
+      image: "assets/projects/cartify-ai/cartify-ai-1.png",
+      gallery: [
+        {
+          url: "assets/projects/cartify-ai/cartify-ai-1.png",
+          caption: "Smart Shopping Experience Banner & AI Recommendation Engine"
+        },
+        {
+          url: "assets/projects/cartify-ai/cartify-ai-2.png",
+          caption: "Interactive Product Catalog & NLP-Based Conversational Search"
+        },
+        {
+          url: "assets/projects/cartify-ai/cartify-ai-3.png",
+          caption: "Cart Drawer Management Overlay"
+        },
+        {
+          url: "assets/projects/cartify-ai/cartify-ai-4.png",
+          caption: "Shipping & Payment Gateway Checkout Interface"
+        }
+      ],
+      problemUseCase: "Traditional e-commerce platforms struggle to provide tailored product suggestions based on real-time user behavior, leading to low conversion rates and inefficient search experiences.",
+      roleContribution: "Lead AI & Web Developer — Responsible for designing the user behavior analysis pipeline, implementing NLP conversational search, and building responsive e-commerce interfaces.",
       description: "Developed an AI-driven recommendation engine using user behavior analysis, delivering 100+ personalized product suggestions. Implemented NLP-based conversational search, improving search efficiency by 30% and enhancing overall user experience.",
       highlights: [
         "Delivered 100+ personalized product suggestions using user behavior analysis",
         "Implemented NLP-based conversational search, boosting search efficiency by 30%",
-        "Enhanced overall user experience through responsive interface and intelligent search"
+        "Designed responsive, modern e-commerce user interfaces with seamless cart drawer & payment flow",
+        "Enhanced overall user experience through intelligent recommendation algorithms"
       ],
-      technologies: ["Python", "AI Recommendation", "NLP", "User Behavior Analytics", "Web Tech"],
+      technologies: ["Python", "AI Recommendation", "NLP", "User Behavior Analytics", "JavaScript", "HTML5/CSS3"],
       metrics: [
         { label: "Product Suggestions", value: "100+" },
         { label: "Search Efficiency", value: "+30%" }
@@ -95,11 +116,19 @@ export const resumeData = {
       subtitle: "AWS Cloud-Native CI/CD Pipeline with Automated SAST Security",
       category: "Cloud & DevSecOps",
       image: "assets/projects/devsecops-pipeline.png",
+      gallery: [
+        {
+          url: "assets/projects/devsecops-pipeline.png",
+          caption: "Project Expo Presentation & AWS DevSecOps Pipeline Showcase"
+        }
+      ],
+      problemUseCase: "Traditional cloud CI/CD pipelines often deploy application code without automated security analysis, leaving applications vulnerable to security flaws and manual review delays.",
+      roleContribution: "Cloud & DevSecOps Engineer — Configured AWS CodePipeline, CodeBuild, Terraform IaC scripts, Docker containerization, and integrated automated Bandit SAST vulnerability scanning.",
       description: "Built a cloud-native DevSecOps pipeline using AWS CodePipeline, CodeBuild, Terraform, Docker, and Django with automated Bandit SAST scanning to detect vulnerabilities and secure CI/CD workflows.",
       highlights: [
         "Awarded 3rd Prize in College Project Expo for automated cloud security",
         "Integrated AWS CodePipeline, CodeBuild, Terraform & Docker for cloud-native deployment",
-        "Configured Bandit SAST automated static analysis scanning to detect code vulnerabilities"
+        "Configured Bandit SAST automated static analysis scanning to detect code vulnerabilities in CI/CD"
       ],
       technologies: ["AWS CodePipeline", "AWS CodeBuild", "Terraform", "Docker", "Python", "Django", "Bandit SAST", "GitHub Actions"],
       award: "3rd Prize - College Project Expo",
@@ -116,6 +145,14 @@ export const resumeData = {
       subtitle: "Full-Stack MERN Event Management Platform",
       category: "Full Stack (MERN)",
       image: "assets/projects/campus-connect.png",
+      gallery: [
+        {
+          url: "assets/projects/campus-connect.png",
+          caption: "SNIST EventHub Campus Event Management Dashboard"
+        }
+      ],
+      problemUseCase: "College event organization lacks a centralized system for multi-club approvals, student registrations, secure role-based access control, and real-time dashboard analytics.",
+      roleContribution: "Full Stack Developer — Architected 20+ RESTful APIs using Node.js/Express and MongoDB, designed React event management dashboards, and implemented JWT-based authentication with RBAC.",
       description: "Developed a MERN Stack campus event management application with JWT-based authentication, Role-Based Access Control (RBAC), and responsive React dashboards integrated with a Node.js/Express backend. Built 20+ RESTful APIs for authentication, event management, registrations, approvals, and user profiles using MongoDB.",
       highlights: [
         "Built 20+ RESTful APIs for authentication, events, registrations, and approvals",
@@ -138,6 +175,14 @@ export const resumeData = {
       subtitle: "Self-Balancing Binary Search Tree Data Structure",
       category: "Data Structures & Algorithms",
       image: "assets/projects/avl-tree.png",
+      gallery: [
+        {
+          url: "assets/projects/avl-tree.png",
+          caption: "Animated AVL Tree Visualizer & Rotation Demonstrator"
+        }
+      ],
+      problemUseCase: "Standard Binary Search Trees (BST) can degrade to O(n) linear performance when skewed; AVL trees balance themselves to maintain guaranteed O(log n) performance.",
+      roleContribution: "DSA Developer — Implemented AVL Tree data structure logic in Java and JavaScript, handling LL, RR, LR, and RL rotations and height-balance verification.",
       description: "Implemented AVL Tree in Java with self-balancing rotations (LL, RR, LR, RL), achieving O(log n) performance for operations and improving efficiency over traditional BST.",
       highlights: [
         "Implemented complete self-balancing rotations: Left-Left (LL), Right-Right (RR), Left-Right (LR), Right-Left (RL)",
