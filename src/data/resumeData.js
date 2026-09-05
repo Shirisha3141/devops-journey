@@ -160,21 +160,37 @@ export const resumeData = {
       title: "Campus Connect",
       subtitle: "Full-Stack MERN Event Management Platform",
       category: "Full Stack (MERN)",
-      image: "assets/projects/campus-connect.png",
+      image: "assets/projects/campus-connect/campus-connect-1.png",
       gallery: [
         {
-          url: "assets/projects/campus-connect.png",
-          caption: "SNIST EventHub Campus Event Management Dashboard"
+          url: "assets/projects/campus-connect/campus-connect-1.png",
+          caption: "SNIST EventHub Main Portal & Campus Event Gallery"
+        },
+        {
+          url: "assets/projects/campus-connect/campus-connect-2.png",
+          caption: "Student Area Dashboard — Registered Events & Certificates Overview"
+        },
+        {
+          url: "assets/projects/campus-connect/campus-connect-3.png",
+          caption: "SDC Club Manager Console — Event Management & Seat Control"
+        },
+        {
+          url: "assets/projects/campus-connect/campus-connect-4.png",
+          caption: "Interactive Event Registration Modal with QR Code Payment Verification"
+        },
+        {
+          url: "assets/projects/campus-connect/campus-connect-5.png",
+          caption: "HOD Console — Department Insights & Event Approvals Dashboard"
         }
       ],
       problemUseCase: "College event organization lacks a centralized system for multi-club approvals, student registrations, secure role-based access control, and real-time dashboard analytics.",
       roleContribution: "Full Stack Developer — Architected 20+ RESTful APIs using Node.js/Express and MongoDB, designed React event management dashboards, and implemented JWT-based authentication with RBAC.",
       description: "Developed a MERN Stack campus event management application with JWT-based authentication, Role-Based Access Control (RBAC), and responsive React dashboards integrated with a Node.js/Express backend. Built 20+ RESTful APIs for authentication, event management, registrations, approvals, and user profiles using MongoDB.",
       highlights: [
-        "Built 20+ RESTful APIs for authentication, events, registrations, and approvals",
+        "Built 20+ RESTful APIs for authentication, event management, registrations, approvals, and user profiles",
         "Implemented JWT-based authentication and Role-Based Access Control (RBAC)",
-        "Designed responsive React dashboards integrated seamlessly with Node.js/Express backend",
-        "Recognized with Merit Certificate for outstanding performance in DevOps & Full Stack"
+        "Designed responsive React dashboards for Students, SDC Club Managers, and HOD Department Console",
+        "Awarded Merit Certificate in DevOps & Full Stack Development for outstanding project performance"
       ],
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Mongoose", "JWT", "REST APIs", "Postman", "GitHub"],
       award: "Merit Certificate Awarded",
